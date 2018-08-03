@@ -1,7 +1,7 @@
 # n-queens
 
-Attempt to find a solution to an N queen problem using the minimal-conflict heuristic.
+Attempt to find a solution to an N queen problem using either the minimal-conflict heuristic, or backtraking.
 
 Build: 'javac *.java'
 
-Run: 'java NQueens \<n\>', where n is the number of queens to place or 'java NQuuens2 \<n\>' for a deterministic version that is not susceptible for cyclic board patterns.
+Run: 'java NQueens \<n\>', where n is the number of queens to place, or 'java NQueens2 \<n\>'.
